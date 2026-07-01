@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>To My Beautiful Nemesis, Ayel</title>
+<title>To My Favorite Nemesis, Ayel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
@@ -274,8 +274,17 @@
     position:relative;
   }
   .polaroid .frame img{
-    width:100%; height:100%; object-fit:cover; display:block;
-  }
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    cursor:pointer;
+    transition:opacity .3s ease, transform .3s ease;
+}
+
+.polaroid .frame img:hover{
+    transform:scale(1.03);
+}
   .polaroid figcaption{
     display:block;
     text-align:center;
@@ -1015,7 +1024,7 @@
     <div class="seal"><span class="seal-mark">A · J</span></div>
     <span class="hero-eyebrow">for Ayel</span>
     <h1>To My Beautiful Nemesis, Ayel</h1>
-    <p class="hero-sub">From Your Favorite Nemesis, <span>Jeon</span></p>
+    <p class="hero-sub">From Your Baby Nemesis, <span>Jeon</span></p>
     <div class="scroll-cue">
       <span>keep going</span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v15M6 13l6 6 6-6"/></svg>
@@ -1031,21 +1040,25 @@
       </div>
 
       <div class="polaroid-grid">
-        <figure class="polaroid reveal reveal-delay-1">
-          <div class="frame">
-            <img src="pic1.jpg" alt="Us, memory one">
-          </div>
-          <figcaption>that afternoon</figcaption>
-        </figure>
-        <figure class="polaroid reveal reveal-delay-2">
-          <div class="frame">
-            <img src="pic2.jpg" alt="Us, memory two">
-          </div>
-          <figcaption>still my favorite</figcaption>
-        </figure>
-      </div>
 
-      <p class="photos-caption reveal reveal-delay-3">Some of my favorite memories.</p>
+  <figure class="polaroid reveal reveal-delay-1">
+    <div class="frame">
+      <img id="leftPhoto" src="pic1.jpg" alt="Memory">
+    </div>
+    <figcaption>click me</figcaption>
+  </figure>
+
+  <figure class="polaroid reveal reveal-delay-2">
+    <div class="frame">
+      <img id="rightPhoto" src="pic3.jpg" alt="Memory">
+    </div>
+    <figcaption>click me too</figcaption>
+  </figure>
+
+</div>
+
+
+      <p class="photos-caption reveal reveal-delay-3">a few of my favorite moments with my favorite person</p>
     </div>
   </section>
 
@@ -1057,11 +1070,12 @@
       <div class="chapter-tag reveal"><span class="rule"></span><span class="label">Chapter Two</span><span class="rule"></span></div>
       <div class="message-card reveal reveal-delay-1">
         <div class="message-body">
-          <p>Ayel, I don't think I've ever quite known how to say this without overthinking every word, so I'm just going to say it simply: knowing you has been one of the easiest and most confusing things that's ever happened to me — easy, because being around you never feels like work, and confusing, because I never expected someone who teases me this much to also be the person I look forward to talking to every single day.</p>
-          <p>You've become the person I want to tell things to first. The good days, the odd days, the days I don't have anything interesting to say at all — I still want to tell you about them. That's new for me. That's you.</p>
-          <p>So here's this small corner of the internet, made quietly and a little nervously, just to say: thank you for being my favorite nemesis, and for making all my overthinking feel worth it.</p>
+           <p>HEHEHEHEHE HELLOOO BABYYYY!!!</p>
+           <p>before anything else man po, i just want to say something or made only for you man po.</p>
+           <p>you know man baby na sometimes i'm not really good at expressing myself or should we say na hindi ko agad na ge-gets yung mga bagay na pag dating sa atin like you really need to say it for me so i can know, ang slow ko man kasi pag dating sa "love" and most of the time i end up overthinking how to say things or think really hard for it until i finally get it HEHEHEHEHE. so baby instead of trying to find the perfect words, i decided to do something man po HEHEHEHE and i really love doing this man.</p>
+           <p>i'm so shy doing this man po kasi i wrote a song but but i got a little help polishing it into something that sounds line an actual song man baby HUHUHU. i'm not a good singer man po kasi baby e and i don't know how to compose talaga so nag gawa na lang po me ng sarili kong words and ayun man nga po nag pa tulong me sa AI. nag pa tulong me na gawin mismo yung song and sa singer NYAHAHAHAHAHAHAHA i don't know kung sino man iyang kumanta HEHEHEHE (i know na gusto ng baby ko na ako lahat man man yan HEHEHEHE). 
+           <p>this isn't anything grand man po baby HEHEHEHE and it's really simple man po so take your time looking around man though wala naman talaga makikita na (museum yarn) NYAHAHAHAHAHAHAHAHA i just hope man by the end of it, you'll enjoy, love, and understand why making all of this felt worth it man po HEHEHEHEHE</p>
         </div>
-        <p class="message-signoff">— Jeon</p>
       </div>
     </div>
   </section>
@@ -1074,7 +1088,7 @@
       <div class="song-heading reveal">
         <div class="chapter-tag"><span class="rule"></span><span class="label">Chapter Three</span><span class="rule"></span></div>
         <h2>Make Sense</h2>
-        <span class="by">written with you in mind</span>
+        <span class="by">written by your baby labo</span>
       </div>
 
       <div class="song-layout">
@@ -1206,29 +1220,38 @@
       <div class="seal reveal"><span class="seal-mark">A · J</span></div>
       <div class="chapter-tag reveal reveal-delay-1"><span class="rule"></span><span class="label">Chapter Four</span><span class="rule"></span></div>
       <h2 class="reveal reveal-delay-1">One Last Thing...</h2>
-      <p class="final-message reveal reveal-delay-2">I'm still that nerdy boy who overthinks things and doesn't always know what to do. But if you'll let me, I'd love the chance to court you properly.</p>
-      <p class="final-question reveal reveal-delay-3">Would you give your favorite nemesis a chance? </p>
+      <p class="final-message reveal reveal-delay-2">if you've made it all the way here man po, thank you for listening to my yap session HEHEHEHE and this very expensive museum tour worth 0 pesos and i guess there's only one thing left to ask man po HEHEHEHE</p>
+      <p class="final-question reveal reveal-delay-3">so baby, would you give your favorite nemesis a chance? </p>
       <div class="btn-row reveal reveal-delay-4" id="btnRow">
-        <button class="btn primary" onclick="celebrateAndOpen(event)">Yes </button>
-        <button class="btn" onclick="celebrateAndOpen(event)">Of course, silly </button>
-      </div>
+  <button class="btn primary" onclick="yesClicked(event)">
+    yes
+  </button>
+
+  <button class="btn" onclick="opsieClicked(event)">
+    no, i won't
+  </button>
+</div>
     </div>
   </section>
 
   <footer>
     <div class="seal"><span class="seal-mark">A · J</span></div>
-    <p class="made">Made with love by Jeon</p>
+    <p class="made">Made with love by your baby Jeon</p>
     <p class="date">July 2026</p>
   </footer>
 
   <!-- ================= MODAL ================= -->
   <div class="modal-overlay" id="modalOverlay">
-    <div class="modal">
-      <div class="seal"><span class="seal-mark">A · J</span></div>
-      <p>Thank you for giving this silly nerdy boy a chance. </p>
-      <button onclick="closeModal()">Close</button>
-    </div>
+  <div class="modal">
+    <div class="seal"><span class="seal-mark">A · J</span></div>
+
+    <p id="modalText">
+      placeholder
+    </p>
+
+    <button onclick="closeModal()">close it sweetiepie</button>
   </div>
+</div>
 
 <script>
   // ---------- envelope intro ----------
@@ -1340,6 +1363,17 @@
 
   // ---------- heart burst on "yes" buttons ----------
   const heartPath = 'M12 21s-7.5-4.6-10-9C.4 8.7 2 5 5.5 5c2 0 3.4 1.1 4.5 2.6C11.1 6.1 12.5 5 14.5 5 18 5 19.6 8.7 22 12c-2.5 4.4-10 9-10 9z';
+  function yesClicked(event){
+  document.getElementById('modalText').textContent =
+    "HEHEHEHEHEHEHE YEHEYYYYYYYY WALA NG BAWIAN YANNNN!!!";
+  celebrateAndOpen(event);
+}
+
+function opsieClicked(event){
+  document.getElementById('modalText').textContent =
+    "OPSIEEEEEE NYAHAHAHAHAHAHAHAHAHA I'M STILL COUNTING THAT AS A YES BABY KO HEHEHEHEHEHE.";
+  celebrateAndOpen(event);
+}
   function celebrateAndOpen(e){
     const btn = e.currentTarget;
     const row = document.getElementById('btnRow');
@@ -1423,6 +1457,50 @@
       audio.currentTime = pct * audio.duration;
     }
   });
+
+  // Photo Switcher
+
+const leftImages = [
+  "pic1.jpg",
+  "pic2.jpg"
+];
+
+const rightImages = [
+  "pic3.jpg",
+  "pic4.jpg"
+];
+
+let leftIndex = 0;
+let rightIndex = 0;
+
+const leftPhoto = document.getElementById("leftPhoto");
+const rightPhoto = document.getElementById("rightPhoto");
+
+if(leftPhoto){
+  leftPhoto.addEventListener("click", () => {
+    leftPhoto.style.opacity = "0";
+
+    setTimeout(() => {
+      leftIndex = (leftIndex + 1) % leftImages.length;
+      leftPhoto.src = leftImages[leftIndex];
+      leftPhoto.style.opacity = "1";
+    }, 200);
+  });
+}
+
+if(rightPhoto){
+  rightPhoto.addEventListener("click", () => {
+    rightPhoto.style.opacity = "0";
+
+    setTimeout(() => {
+      rightIndex = (rightIndex + 1) % rightImages.length;
+      rightPhoto.src = rightImages[rightIndex];
+      rightPhoto.style.opacity = "1";
+    }, 200);
+  });
+}
+  </script>
+  
 </script>
 
 </body>
